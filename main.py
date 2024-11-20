@@ -30,6 +30,21 @@ from unittest import case
 #     print(f'number:{i}')
 #     i += 1
 
-df = range(5, 11)
-for i in df:
+# df = range(5, 11)
+# for i in df:
+#     print(i)
+
+
+# last_two_digits = 2323763 % 100
+#
+# print(last_two_digits)
+
+# for i in range(3):
+#     print(i)
+
+# list = [1,2,3,4,5]
+#
+# print(list.sort())
+
+for i in range(10):
     print(i)
