@@ -15,7 +15,7 @@ def main():
         gr.add_student(st3)
         gr.add_student(st4)
         print(gr)
-        assert gr.find_student('Jobs') == st1  # 'Steve Jobs'
+        assert gr.find_student('Jobs') == st1
         assert gr.find_student('Jobs2') is None
 
         gr.delete_student('Taylor')
